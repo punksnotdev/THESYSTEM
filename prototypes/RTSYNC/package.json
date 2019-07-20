@@ -1,0 +1,32 @@
+{
+  "name": "@punksnotdev/rtsync",
+  "version": "0.0.1",
+  "description": "rtsync 4 instruments",
+  "main": "RTSYNC.js",
+  "scripts": {
+    "test": "rpm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/punksnotdev/RTSYNC.git"
+  },
+  "keywords": [
+    "realtime",
+    "syncronization",
+    "music",
+    "clients",
+    "live",
+    "coding"
+  ],
+  "author": "furenku",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/punksnotdev/RTSYNC/issues"
+  },
+  "homepage": "https://github.com/punksnotdev/RTSYNC#readme",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "rethinkdb": "^2.3.3",
+    "socket.io": "^2.2.0"
+  }
+}
