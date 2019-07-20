@@ -1,5 +1,5 @@
 {
-  "name": "system",
+  "name": "@punksnotdev/system",
   "version": "0.0.1",
   "description": "RTSYNC+ACTNOW",
   "main": "SYSTEM.js",
@@ -24,5 +24,10 @@
   "bugs": {
     "url": "https://github.com/punksnotdev/SYSTEM/issues"
   },
-  "homepage": "https://github.com/punksnotdev/SYSTEM#readme"
+  "homepage": "https://github.com/punksnotdev/SYSTEM#readme",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "rethinkdb": "^2.3.3",
+    "socket.io": "^2.2.0"
+  }
 }
