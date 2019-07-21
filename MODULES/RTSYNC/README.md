@@ -1,9 +1,0 @@
-# RTSYNC
-
-
-
-```bash
-
-npm start
-
-```

@@ -9,7 +9,10 @@ services:
   rtsync:
     container_name: rtsync
     restart: always
-    build:
-      context: MODULES/RTSYNC/.
+    volumes:
+      - ../repos/RTSYNC/:/RTSYNC/   
+    working_dir: /RTSYNC/
+    #build:
+      #context: ./RTSYNC/
     ports:
       - "4000:4000"

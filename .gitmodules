@@ -1,0 +1,3 @@
+[submodule "MODULES/RTSYNC"]
+	path = MODULES/RTSYNC
+	url = https://github.com/punksnotdev/RTSYNC.git
