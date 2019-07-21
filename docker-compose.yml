@@ -1,7 +1,7 @@
 version: "3"
 services:
-  system:
-    container_name: system
+  thesystem:
+    container_name: thesystem
     restart: always
     build: ./
     ports:
