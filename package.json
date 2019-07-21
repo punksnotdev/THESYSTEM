@@ -2,7 +2,7 @@
   "name": "@punksnotdev/thesystem",
   "version": "0.0.1",
   "description": "RTSYNC+ACTNOW",
-  "main": "SYSTEM.js",
+  "main": "THESYSTEM.js",
   "scripts": {
     "start": "node SYSTEM.js",
     "test": "npm run test"
