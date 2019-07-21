@@ -20,4 +20,4 @@ services:
     build:
       context: ./MODULES/HTTP/
     ports:
-      - "8080:80"
+      - "80:80"
