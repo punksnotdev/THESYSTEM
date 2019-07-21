@@ -9,15 +9,24 @@ services:
   rtsync:
     container_name: rtsync
     restart: always
-    build:
-      context: ./MODULES/RTSYNC/
+    build: ./RTSYNC/
     ports:
       - "4000:4000"
+    volumes:
+      - ./modules/RTSYNC:/RTSYNC
 
-  nginx:
-    container_name: http
+  monitor:
+    container_name: monitor
     restart: always
-    build:
-      context: ./MODULES/HTTP/
+    build: ./MONITOR
+    volumes:
+      - ./modules/MONITOR:/usr/share/nginx/html
+      - /MONITOR/node_modules
+    # volumes:
+    #   - ./MONITOR:/usr/share/nginx/html
+
     ports:
       - "80:80"
+volumes:
+  RTSYNC:
+  MONITOR:

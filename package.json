@@ -4,7 +4,7 @@
   "description": "RTSYNC+ACTNOW",
   "main": "THESYSTEM.js",
   "scripts": {
-    "start": "nodemon THESYSTEM.js",
+    "start": "node THESYSTEM.js",
     "test": "npm run test"
   },
   "repository": {
