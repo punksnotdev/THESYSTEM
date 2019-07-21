@@ -1,3 +1,6 @@
 [submodule "MODULES/RTSYNC"]
 	path = MODULES/RTSYNC
 	url = https://github.com/punksnotdev/RTSYNC.git
+[submodule "MODULES/HTTP/MONITOR"]
+	path = MODULES/HTTP/MONITOR
+	url = https://github.com/punksnotdev/MONITOR.git

@@ -1,12 +1,15 @@
 FROM node:10
 
-WORKDIR /app
+WORKDIR /
+
+
+COPY . .
 
 COPY package.json package.json
 
 RUN npm install
 
-COPY . .
+RUN git submodule update --init --recursive
 
 EXPOSE 6666
 
