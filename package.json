@@ -4,6 +4,7 @@
   "description": "RTSYNC+ACTNOW",
   "main": "SYSTEM.js",
   "scripts": {
+    "start": "node SYSTEM.js",
     "test": "npm run test"
   },
   "repository": {

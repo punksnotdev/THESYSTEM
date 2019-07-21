@@ -1,0 +1,15 @@
+version: "3"
+services:
+  system:
+    container_name: system
+    restart: always
+    build: ./
+    ports:
+      - "6666:6666"
+  rtsync:
+    container_name: rtsync
+    restart: always
+    build:
+      context: MODULES/RTSYNC/.
+    ports:
+      - "4000:4000"
