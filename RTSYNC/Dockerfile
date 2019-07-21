@@ -14,7 +14,7 @@ WORKDIR /RTSYNC
 # COPY . /RTSYNC
 # COPY package.json ./
 
-RUN npm install
+# RUN npm install
 
 COPY . .
 

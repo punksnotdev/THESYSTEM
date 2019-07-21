@@ -4,7 +4,7 @@ WORKDIR /MONITOR
 COPY . .
 # COPY MONITOR/package.json package.json
 
-RUN npm install
+# RUN npm install
 
 FROM nginx:alpine as production-stage
 # COPY LANDING /usr/share/nginx/html
