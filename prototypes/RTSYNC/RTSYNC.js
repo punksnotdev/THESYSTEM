@@ -132,7 +132,14 @@ app.use(async (ctx, next) => {
     await next();
 });
   
+let time = 0;
 
+setInterval( () => {
+    io.broadcast("sync",{ time })
+    time++
+    console.log(time);
+    
+}, 1000 )
 
 
 app.listen( process.env.PORT || 4000 );

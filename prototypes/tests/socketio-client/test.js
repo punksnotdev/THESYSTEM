@@ -22,9 +22,13 @@ console.log(connections);
 socket.on( 'join', function( event ) {
   connections.innerHTML = event.numConnections;
 });
+
+var time = document.querySelector('.js-time')
+
+socket.on( 'sync', function( event ) {
+  time.innerHTML = event.time;
+});
 socket.on( 'connections', function( event ) {
-  console.log("connections",event);
-  
   connections.innerHTML = event.numConnections;
 });
 socket.on( 'msg', function( event ) {
